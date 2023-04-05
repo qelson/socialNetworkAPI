@@ -1,0 +1,32 @@
+{
+  "name": "socialnetworkapi",
+  "version": "1.0.0",
+  "description": "This CLI app is developed to test different end points using Insomnia.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qelson/socialNetworkAPI.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongoose",
+    "express",
+    "insomnia"
+  ],
+  "author": "Quin Elson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qelson/socialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/qelson/socialNetworkAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  }
+}
